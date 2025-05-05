@@ -68,23 +68,32 @@ public class IntegerToRomanTest
     }
 
     @Test
-    public void testZeroLanciaEccezione() {
-        assertThrows(IllegalArgumentException.class, () -> {
+    public void testConvertZero_throwsException() {
+        try {
             IntegerToRoman.convert(0);
-        });
+            fail("Expected IllegalArgumentException for input 0");
+        } catch (IllegalArgumentException e) {
+            // OK
+        }
     }
 
     @Test
-    public void testNegativoLanciaEccezione() {
-        assertThrows(IllegalArgumentException.class, () -> {
-            IntegerToRoman.convert(-10);
-        });
+    public void testConvertNegative_throwsException() {
+        try {
+            IntegerToRoman.convert(-1);
+            fail("Expected IllegalArgumentException for input -1");
+        } catch (IllegalArgumentException e) {
+            // OK
+        }
     }
 
     @Test
-    public void testMaggioreDiLimiteLanciaEccezione() {
-        assertThrows(IllegalArgumentException.class, () -> {
+    public void testConvertTooLarge_throwsException() {
+        try {
             IntegerToRoman.convert(4000);
-        });
+            fail("Expected IllegalArgumentException for input 4000");
+        } catch (IllegalArgumentException e) {
+            // OK
+        }
     }
 }
