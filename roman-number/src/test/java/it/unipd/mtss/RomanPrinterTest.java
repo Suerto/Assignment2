@@ -13,7 +13,7 @@ public class RomanPrinterTest
     @Test
     public void classIsNotNull()
     {
-        RomanPrinter *obj = new RomanPrinter();
+        RomanPrinter obj = new RomanPrinter();
         assertNotNull(obj);
     }
     @Test
