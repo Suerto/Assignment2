@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.RomanPrinterTest" time="0.124" tests="9" errors="0" skipped="0" failures="8">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.RomanPrinterTest" time="0.116" tests="9" errors="0" skipped="0" failures="8">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IT"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/nenad/Progetti/Assignment2/roman-number/target/surefire/surefirebooter4946542415903740382.jar /home/nenad/Progetti/Assignment2/roman-number/target/surefire 2025-05-05T15-17-58_835-jvmRun1 surefire16475505797979045054tmp surefire_03707165859207233031tmp"/>
+    <property name="sun.java.command" value="/home/nenad/Progetti/Assignment2/roman-number/target/surefire/surefirebooter1447149704725098272.jar /home/nenad/Progetti/Assignment2/roman-number/target/surefire 2025-05-05T15-24-07_173-jvmRun1 surefire6035687592273724700tmp surefire_03230288438133984489tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/nenad/Progetti/Assignment2/roman-number/target/test-classes:/home/nenad/Progetti/Assignment2/roman-number/target/classes:/home/nenad/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/nenad/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/nenad/Progetti/Assignment2/roman-number/target/surefire/surefirebooter4946542415903740382.jar"/>
+    <property name="surefire.real.class.path" value="/home/nenad/Progetti/Assignment2/roman-number/target/surefire/surefirebooter1447149704725098272.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+7-Ubuntu-124.04.1"/>
     <property name="user.name" value="nenad"/>
@@ -54,7 +54,7 @@
     <property name="java.class.version" value="65.0"/>
   </properties>
   <testcase name="classIsNotNull" classname="it.unipd.mtss.RomanPrinterTest" time="0.004"/>
-  <testcase name="testStampaC" classname="it.unipd.mtss.RomanPrinterTest" time="0.011">
+  <testcase name="testStampaC" classname="it.unipd.mtss.RomanPrinterTest" time="0.013">
     <failure message="expected:&lt;[  _____  &#10; / ____| &#10;| |      &#10;| |      &#10;| |____  &#10; \_____| &#10;]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: 
 expected:<[  _____  
  / ____| 
@@ -66,7 +66,7 @@ expected:<[  _____
 	at it.unipd.mtss.RomanPrinterTest.testStampaC(RomanPrinterTest.java:87)
 ]]></failure>
   </testcase>
-  <testcase name="testStampaD" classname="it.unipd.mtss.RomanPrinterTest" time="0.001">
+  <testcase name="testStampaD" classname="it.unipd.mtss.RomanPrinterTest" time="0">
     <failure message="expected:&lt;[ _____   &#10;|  __ \  &#10;| |  | | &#10;| |  | | &#10;| |__| | &#10;|_____/  &#10;]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: 
 expected:<[ _____   
 |  __ \  
@@ -126,7 +126,7 @@ expected:<[__      __
 	at it.unipd.mtss.RomanPrinterTest.testStampaV(RomanPrinterTest.java:44)
 ]]></failure>
   </testcase>
-  <testcase name="testStampaX" classname="it.unipd.mtss.RomanPrinterTest" time="0">
+  <testcase name="testStampaX" classname="it.unipd.mtss.RomanPrinterTest" time="0.001">
     <failure message="expected:&lt;[__   __ &#10;\ \ / / &#10; \ V /  &#10;  &gt; &lt;   &#10; / . \  &#10;/_/ \_\ &#10;]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: 
 expected:<[__   __ 
 \ \ / / 
