@@ -25,3 +25,12 @@ jobs:
       - name: Build and test with Maven
         working-directory: roman-number
         run: mvn clean verify
+        env:
+          COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
+      
+      - name: Upload Jacoco report to Coveralls
+        if: always()
+        uses: coverallsapp/github-action@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          file: roman-number/target/site/jacoco/jacoco.xml
