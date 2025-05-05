@@ -1,4 +1,96 @@
 -------------------------------------------------------------------------------
 Test set: it.unipd.mtss.RomanPrinterTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.12 s - in it.unipd.mtss.RomanPrinterTest
+=======
+Tests run: 9, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 0.115 s <<< FAILURE! - in it.unipd.mtss.RomanPrinterTest
+testStampaC(it.unipd.mtss.RomanPrinterTest)  Time elapsed: 0.011 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<[  _____  
+ / ____| 
+| |      
+| |      
+| |____  
+ \_____| 
+]> but was:<[]>
+	at it.unipd.mtss.RomanPrinterTest.testStampaC(RomanPrinterTest.java:87)
+
+testStampaD(it.unipd.mtss.RomanPrinterTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<[ _____   
+|  __ \  
+| |  | | 
+| |  | | 
+| |__| | 
+|_____/  
+]> but was:<[]>
+	at it.unipd.mtss.RomanPrinterTest.testStampaD(RomanPrinterTest.java:100)
+
+testStampaI(it.unipd.mtss.RomanPrinterTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<[ _____  
+|_   _| 
+  | |   
+  | |   
+ _| |_  
+|_____| 
+]> but was:<[]>
+	at it.unipd.mtss.RomanPrinterTest.testStampaI(RomanPrinterTest.java:30)
+
+testStampaL(it.unipd.mtss.RomanPrinterTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<[ _       
+| |      
+| |      
+| |      
+| |____  
+|______| 
+]> but was:<[]>
+	at it.unipd.mtss.RomanPrinterTest.testStampaL(RomanPrinterTest.java:72)
+
+testStampaM(it.unipd.mtss.RomanPrinterTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<[ __  __  
+|  \/  | 
+| \  / | 
+| |\/| | 
+| |  | | 
+|_|  |_| 
+]> but was:<[]>
+	at it.unipd.mtss.RomanPrinterTest.testStampaM(RomanPrinterTest.java:115)
+
+testStampaV(it.unipd.mtss.RomanPrinterTest)  Time elapsed: 0.001 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<[__      __ 
+\ \    / / 
+ \ \  / /  
+  \ \/ /   
+   \  /    
+    \/     
+]> but was:<[]>
+	at it.unipd.mtss.RomanPrinterTest.testStampaV(RomanPrinterTest.java:44)
+
+testStampaX(it.unipd.mtss.RomanPrinterTest)  Time elapsed: 0.001 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<[__   __ 
+\ \ / / 
+ \ V /  
+  > <   
+ / . \  
+/_/ \_\ 
+]> but was:<[]>
+	at it.unipd.mtss.RomanPrinterTest.testStampaX(RomanPrinterTest.java:58)
+
+testStampa88(it.unipd.mtss.RomanPrinterTest)  Time elapsed: 0.002 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<[ _       __   __ __   __ __   __ __      __  _____   _____   _____  
+| |      \ \ / / \ \ / / \ \ / / \ \    / / |_   _| |_   _| |_   _| 
+| |       \ V /   \ V /   \ V /   \ \  / /    | |     | |     | |   
+| |        > <     > <     > <     \ \/ /     | |     | |     | |   
+| |____   / . \   / . \   / . \     \  /     _| |_   _| |_   _| |_  
+|______| /_/ \_\ /_/ \_\ /_/ \_\     \/     |_____| |_____| |_____| 
+]> but was:<[]>
+	at it.unipd.mtss.RomanPrinterTest.testStampa88(RomanPrinterTest.java:129)
+
+>>>>>>> origin/testCheckInput

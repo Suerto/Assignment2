@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.checkInputTest" time="0.001" tests="2" errors="0" skipped="0" failures="0">
+=======
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.checkInputTest" time="0.001" tests="7" errors="0" skipped="0" failures="6">
+>>>>>>> origin/testCheckInput
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +16,11 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IT"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
+<<<<<<< HEAD
     <property name="sun.java.command" value="/home/nenad/Progetti/Assignment2/roman-number/target/surefire/surefirebooter2416023173598060462.jar /home/nenad/Progetti/Assignment2/roman-number/target/surefire 2025-05-05T15-57-05_720-jvmRun1 surefire16976023068224533682tmp surefire_016277986142565136603tmp"/>
+=======
+    <property name="sun.java.command" value="/home/nenad/Progetti/Assignment2/roman-number/target/surefire/surefirebooter9235068678972734489.jar /home/nenad/Progetti/Assignment2/roman-number/target/surefire 2025-05-05T19-19-22_316-jvmRun1 surefire8593726961201955530tmp surefire_09840006669358558702tmp"/>
+>>>>>>> origin/testCheckInput
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/nenad/Progetti/Assignment2/roman-number/target/test-classes:/home/nenad/Progetti/Assignment2/roman-number/target/classes:/home/nenad/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/nenad/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +35,11 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<<<<<<< HEAD
     <property name="surefire.real.class.path" value="/home/nenad/Progetti/Assignment2/roman-number/target/surefire/surefirebooter2416023173598060462.jar"/>
+=======
+    <property name="surefire.real.class.path" value="/home/nenad/Progetti/Assignment2/roman-number/target/surefire/surefirebooter9235068678972734489.jar"/>
+>>>>>>> origin/testCheckInput
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+7-Ubuntu-124.04.1"/>
     <property name="user.name" value="nenad"/>
@@ -53,6 +65,40 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
+<<<<<<< HEAD
   <testcase name="testInputNumero" classname="it.unipd.mtss.checkInputTest" time="0"/>
   <testcase name="testInputStringa" classname="it.unipd.mtss.checkInputTest" time="0"/>
+=======
+  <testcase name="testInputNumeroBordi" classname="it.unipd.mtss.checkInputTest" time="0">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at it.unipd.mtss.checkInputTest.testInputNumeroBordi(checkInputTest.java:19)
+</failure>
+  </testcase>
+  <testcase name="testInputStringaUnCarattereNonValido" classname="it.unipd.mtss.checkInputTest" time="0"/>
+  <testcase name="testInputNumero" classname="it.unipd.mtss.checkInputTest" time="0">
+    <failure message="Test di checkInput::validaInput(int) fallito!" type="java.lang.AssertionError">java.lang.AssertionError: Test di checkInput::validaInput(int) fallito!
+	at it.unipd.mtss.checkInputTest.testInputNumero(checkInputTest.java:52)
+</failure>
+  </testcase>
+  <testcase name="testInputStringaMinuscoli" classname="it.unipd.mtss.checkInputTest" time="0">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at it.unipd.mtss.checkInputTest.testInputStringaMinuscoli(checkInputTest.java:26)
+</failure>
+  </testcase>
+  <testcase name="testInputStringaUnCarattereValido" classname="it.unipd.mtss.checkInputTest" time="0">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at it.unipd.mtss.checkInputTest.testInputStringaUnCarattereValido(checkInputTest.java:38)
+</failure>
+  </testcase>
+  <testcase name="testInputStringa" classname="it.unipd.mtss.checkInputTest" time="0">
+    <failure message="Test di checkInput::validaInput(String) fallito!" type="java.lang.AssertionError">java.lang.AssertionError: Test di checkInput::validaInput(String) fallito!
+	at it.unipd.mtss.checkInputTest.testInputStringa(checkInputTest.java:62)
+</failure>
+  </testcase>
+  <testcase name="testInputStringaVuota" classname="it.unipd.mtss.checkInputTest" time="0">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at it.unipd.mtss.checkInputTest.testInputStringaVuota(checkInputTest.java:32)
+</failure>
+  </testcase>
+>>>>>>> origin/testCheckInput
 </testsuite>

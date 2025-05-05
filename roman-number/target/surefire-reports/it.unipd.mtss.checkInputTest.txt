@@ -1,4 +1,32 @@
 -------------------------------------------------------------------------------
 Test set: it.unipd.mtss.checkInputTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in it.unipd.mtss.checkInputTest
+=======
+Tests run: 7, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in it.unipd.mtss.checkInputTest
+testInputNumeroBordi(it.unipd.mtss.checkInputTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at it.unipd.mtss.checkInputTest.testInputNumeroBordi(checkInputTest.java:19)
+
+testInputNumero(it.unipd.mtss.checkInputTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Test di checkInput::validaInput(int) fallito!
+	at it.unipd.mtss.checkInputTest.testInputNumero(checkInputTest.java:52)
+
+testInputStringaMinuscoli(it.unipd.mtss.checkInputTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at it.unipd.mtss.checkInputTest.testInputStringaMinuscoli(checkInputTest.java:26)
+
+testInputStringaUnCarattereValido(it.unipd.mtss.checkInputTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at it.unipd.mtss.checkInputTest.testInputStringaUnCarattereValido(checkInputTest.java:38)
+
+testInputStringa(it.unipd.mtss.checkInputTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Test di checkInput::validaInput(String) fallito!
+	at it.unipd.mtss.checkInputTest.testInputStringa(checkInputTest.java:62)
+
+testInputStringaVuota(it.unipd.mtss.checkInputTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at it.unipd.mtss.checkInputTest.testInputStringaVuota(checkInputTest.java:32)
+
+>>>>>>> origin/testCheckInput
