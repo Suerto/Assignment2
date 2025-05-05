@@ -114,6 +114,7 @@ public class RomanPrinter
                         break;
                 }
             }
+
             risultato.append("\n");
         }
 
