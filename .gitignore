@@ -1,0 +1,13 @@
+# Ignora la cartella target e il suo contenuto
+/target/
+
+# MA non ignorare jacoco.xml in target/site/jacoco/
+!target/site/jacoco/jacoco.xml
+
+# Ignora le cartelle e i file specifici di Eclipse
+/.settings/
+/.classpath
+/.project
+
+# Ignora altri file temporanei o non necessari
+*.log
