@@ -66,4 +66,25 @@ public class IntegerToRomanTest
             }
         }
     }
+
+    @Test
+    public void testZeroLanciaEccezione() {
+        assertThrows(IllegalArgumentException.class, () -> {
+            IntegerToRoman.convert(0);
+        });
+    }
+
+    @Test
+    public void testNegativoLanciaEccezione() {
+        assertThrows(IllegalArgumentException.class, () -> {
+            IntegerToRoman.convert(-10);
+        });
+    }
+
+    @Test
+    public void testMaggioreDiLimiteLanciaEccezione() {
+        assertThrows(IllegalArgumentException.class, () -> {
+            IntegerToRoman.convert(4000);
+        });
+    }
 }
