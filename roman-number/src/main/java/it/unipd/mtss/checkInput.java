@@ -5,11 +5,16 @@
 
 package it.unipd.mtss;
 
-public class IntegerToRoman 
+
+public class checkInput 
 {
-    public static String convert(int number)
+    public static boolean validaInput(int num)
     {
-        // TODO
-        return null;
+        return false;
+    }
+
+    public static boolean validaInput(String str)
+    {
+        return false;
     }
 }
