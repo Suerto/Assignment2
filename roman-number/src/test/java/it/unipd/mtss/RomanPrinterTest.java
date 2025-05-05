@@ -8,6 +8,7 @@ package it.unipd.mtss;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.asserThrows;
 public class RomanPrinterTest 
 {
     @Test
@@ -133,5 +134,23 @@ public class RomanPrinterTest
             "    \\/     " +"|_____| "+"|_____| "+"|_____| \n";
 
         assertEquals(res, RomanPrinter.print(88));
+    }
+
+    @Test
+    public void testZeroLanciaEccezione() {
+        assertThrows(IllegalArgumentException.class, () -> 
+                RomanPrinter.print(0));
+    }
+
+    @Test
+    public void testNegativoLanciaEccezione() {
+        assertThrows(IllegalArgumentException.class, () -> 
+                RomanPrinter.print(-5));
+    }
+
+    @Test
+    public void testNumeroTroppoGrandeLanciaEccezione() {
+        assertThrows(IllegalArgumentException.class, () -> 
+                RomanPrinter.print(4000));
     }
 }
