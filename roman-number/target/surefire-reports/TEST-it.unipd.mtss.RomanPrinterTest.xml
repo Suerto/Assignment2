@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.RomanPrinterTest" time="0.107" tests="9" errors="8" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.RomanPrinterTest" time="0.12" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IT"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/nenad/Progetti/Assignment2/roman-number/target/surefire/surefirebooter6817017001210670018.jar /home/nenad/Progetti/Assignment2/roman-number/target/surefire 2025-05-05T15-37-47_752-jvmRun1 surefire240795855047724840tmp surefire_013035227280760416026tmp"/>
+    <property name="sun.java.command" value="/home/nenad/Progetti/Assignment2/roman-number/target/surefire/surefirebooter2416023173598060462.jar /home/nenad/Progetti/Assignment2/roman-number/target/surefire 2025-05-05T15-57-05_720-jvmRun1 surefire16976023068224533682tmp surefire_016277986142565136603tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/nenad/Progetti/Assignment2/roman-number/target/test-classes:/home/nenad/Progetti/Assignment2/roman-number/target/classes:/home/nenad/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/nenad/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/nenad/Progetti/Assignment2/roman-number/target/surefire/surefirebooter6817017001210670018.jar"/>
+    <property name="surefire.real.class.path" value="/home/nenad/Progetti/Assignment2/roman-number/target/surefire/surefirebooter2416023173598060462.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+7-Ubuntu-124.04.1"/>
     <property name="user.name" value="nenad"/>
@@ -54,44 +54,12 @@
     <property name="java.class.version" value="65.0"/>
   </properties>
   <testcase name="classIsNotNull" classname="it.unipd.mtss.RomanPrinterTest" time="0.005"/>
-  <testcase name="testStampaC" classname="it.unipd.mtss.RomanPrinterTest" time="0.01">
-    <error type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException
-	at it.unipd.mtss.RomanPrinterTest.testStampaC(RomanPrinterTest.java:87)
-</error>
-  </testcase>
-  <testcase name="testStampaD" classname="it.unipd.mtss.RomanPrinterTest" time="0.001">
-    <error type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException
-	at it.unipd.mtss.RomanPrinterTest.testStampaD(RomanPrinterTest.java:100)
-</error>
-  </testcase>
-  <testcase name="testStampaI" classname="it.unipd.mtss.RomanPrinterTest" time="0.001">
-    <error type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException
-	at it.unipd.mtss.RomanPrinterTest.testStampaI(RomanPrinterTest.java:30)
-</error>
-  </testcase>
-  <testcase name="testStampaL" classname="it.unipd.mtss.RomanPrinterTest" time="0.001">
-    <error type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException
-	at it.unipd.mtss.RomanPrinterTest.testStampaL(RomanPrinterTest.java:72)
-</error>
-  </testcase>
-  <testcase name="testStampaM" classname="it.unipd.mtss.RomanPrinterTest" time="0.001">
-    <error type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException
-	at it.unipd.mtss.RomanPrinterTest.testStampaM(RomanPrinterTest.java:115)
-</error>
-  </testcase>
-  <testcase name="testStampaV" classname="it.unipd.mtss.RomanPrinterTest" time="0.001">
-    <error type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException
-	at it.unipd.mtss.RomanPrinterTest.testStampaV(RomanPrinterTest.java:44)
-</error>
-  </testcase>
-  <testcase name="testStampaX" classname="it.unipd.mtss.RomanPrinterTest" time="0.001">
-    <error type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException
-	at it.unipd.mtss.RomanPrinterTest.testStampaX(RomanPrinterTest.java:58)
-</error>
-  </testcase>
-  <testcase name="testStampa88" classname="it.unipd.mtss.RomanPrinterTest" time="0.001">
-    <error type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException
-	at it.unipd.mtss.RomanPrinterTest.testStampa88(RomanPrinterTest.java:129)
-</error>
-  </testcase>
+  <testcase name="testStampaC" classname="it.unipd.mtss.RomanPrinterTest" time="0.002"/>
+  <testcase name="testStampaD" classname="it.unipd.mtss.RomanPrinterTest" time="0"/>
+  <testcase name="testStampaI" classname="it.unipd.mtss.RomanPrinterTest" time="0"/>
+  <testcase name="testStampaL" classname="it.unipd.mtss.RomanPrinterTest" time="0"/>
+  <testcase name="testStampaM" classname="it.unipd.mtss.RomanPrinterTest" time="0.001"/>
+  <testcase name="testStampaV" classname="it.unipd.mtss.RomanPrinterTest" time="0"/>
+  <testcase name="testStampaX" classname="it.unipd.mtss.RomanPrinterTest" time="0"/>
+  <testcase name="testStampa88" classname="it.unipd.mtss.RomanPrinterTest" time="0.001"/>
 </testsuite>

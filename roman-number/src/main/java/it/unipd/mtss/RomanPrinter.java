@@ -15,7 +15,9 @@ public class RomanPrinter
     private static String printAsciiArt(String romanNumber)
     {
         if(!checkInput.validaInput(romanNumber))
+        {
             throw new IllegalArgumentException();
+        }
 
         String[] cifra_I={
             " _____  ",

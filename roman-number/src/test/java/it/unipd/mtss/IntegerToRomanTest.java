@@ -57,14 +57,13 @@ public class IntegerToRomanTest
 
         for(String[] s : test)
         {
-            String strConvertita = IntegerToRoman.convert(Integer.parseInt(s[0]));
+            String str = IntegerToRoman.convert(Integer.parseInt(s[0]));
             String s1 = s[1].toString();
 
-            //System.out.println("\n###########\nStrConvertita: "+strConvertita);
-            //System.out.println("\ns[1]: "+s1);
-
-            if(strConvertita.compareTo(s1)!=0)
+            if(str.compareTo(s1)!=0)
+            {
                 fail("Test fallito al punto "+s[0]+" "+s[1]);
+            }
         }
     }
 }
