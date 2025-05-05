@@ -1,6 +1,6 @@
 package it.unipd.mtss;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertNotNull;
 
 import org.junit.Test;
 
@@ -9,12 +9,10 @@ import org.junit.Test;
  */
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
     @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+    public void testAppIsNotNull() {
+        // Verifica che l'oggetto App non sia null
+        App app = new App();
+        assertNotNull("L'oggetto App non dovrebbe essere null", app);
     }
 }
