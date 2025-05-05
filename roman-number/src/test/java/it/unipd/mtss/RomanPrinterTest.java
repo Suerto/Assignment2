@@ -8,7 +8,7 @@ package it.unipd.mtss;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.asserThrows;
+import static org.junit.Assert.fail;
 public class RomanPrinterTest 
 {
     @Test
@@ -137,20 +137,32 @@ public class RomanPrinterTest
     }
 
     @Test
-    public void testZeroLanciaEccezione() {
-        assertThrows(IllegalArgumentException.class, () -> 
-                RomanPrinter.print(0));
+    public void testPrintZero_throwsException() {
+        try {
+            RomanPrinter.print(0);
+            fail("Expected IllegalArgumentException for input 0");
+        } catch (IllegalArgumentException e) {
+            // OK
+        }
     }
 
     @Test
-    public void testNegativoLanciaEccezione() {
-        assertThrows(IllegalArgumentException.class, () -> 
-                RomanPrinter.print(-5));
+    public void testPrintNegativeNumber_throwsException() {
+        try {
+            RomanPrinter.print(-5);
+            fail("Expected IllegalArgumentException for input -5");
+        } catch (IllegalArgumentException e) {
+            // OK
+        }
     }
 
     @Test
-    public void testNumeroTroppoGrandeLanciaEccezione() {
-        assertThrows(IllegalArgumentException.class, () -> 
-                RomanPrinter.print(4000));
+    public void testPrintTooLargeNumber_throwsException() {
+        try {
+            RomanPrinter.print(4000);
+            fail("Expected IllegalArgumentException for input 4000");
+        } catch (IllegalArgumentException e) {
+            // OK
+        }
     }
 }
