@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: it.unipd.mtss.IntegerToRomanTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in it.unipd.mtss.IntegerToRomanTest
-test(it.unipd.mtss.IntegerToRomanTest)  Time elapsed: 0 s  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in it.unipd.mtss.IntegerToRomanTest
+test(it.unipd.mtss.IntegerToRomanTest)  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "String.compareTo(String)" because "strConvertita" is null
 	at it.unipd.mtss.IntegerToRomanTest.test(IntegerToRomanTest.java:66)
 
