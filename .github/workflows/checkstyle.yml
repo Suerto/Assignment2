@@ -23,4 +23,5 @@ jobs:
           java-version: '21'
 
       - name: Run Checkstyle
+        working-directory: roman-number
         run: mvn checkstyle:check
